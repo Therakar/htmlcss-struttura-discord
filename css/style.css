@@ -119,6 +119,8 @@ main section:nth-child(2n){
     display: flex;
 }
 
+
+
 .col-small-foot{
     width: 50%;
 }
@@ -128,4 +130,46 @@ main section:nth-child(2n){
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* LINEE TRATTEGGIATE */
+.col-logo{
+    border-style: dashed;
+    border-color: black
+}
+
+.col-header{
+    border-style: dashed;
+    border-color: black
+}
+
+.col-small{
+    border-style: dashed;
+    border-color: black
+}
+
+.col-main-bottom{
+    border-style: dashed;
+    border-color: black
+}
+
+.col-big{
+    border-style: dashed;
+    border-color: black
+}
+
+.col-big-foot:first-child{
+    border-style: dashed;
+    border-color: black;
+}
+
+.col-small-foot{
+    border-style: dashed;
+    border-color: white;
+}
+
+.col-footer-bottom>*{
+    border-style: dashed;
+    border-color: black;
+    background-color: #FFC0CB;
 }
