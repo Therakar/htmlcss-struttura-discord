@@ -14,7 +14,7 @@
 }
 
 .debug .header-bottom{
-    background-color: 00008B;
+    background-color: #00008B;
 }
 
 .debug .container{
@@ -22,6 +22,10 @@
     height: 50px;
 }
 
+.debug .col-header{
+    background-color: #EE82EE;
+    height: 400px;
+}
 
 
 /* COMMON */
@@ -30,7 +34,6 @@
     max-width: 1200px;
     margin: auto;
 }
-
 
 /* HEADER */
 
@@ -42,4 +45,14 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+}
+
+.header-bottom{
+    padding: 50px;
+    
+}
+
+.col-header{
+    max-width: 900px;
+    margin: auto;
 }
