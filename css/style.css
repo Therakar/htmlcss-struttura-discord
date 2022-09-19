@@ -17,7 +17,7 @@
     background-color: #00008B;
 }
 
-.debug .container{
+.debug .col-logo{
     background-color: #DAA520;
     height: 50px;
 }
@@ -27,6 +27,20 @@
     height: 400px;
 }
 
+.debug .col-big{
+    background-color: #1E90FF;
+    height: 500px;
+}
+
+.debug .col-small{
+    background-color: #FFC0CB;
+    height: 500px;
+}
+
+.debug .col-main-bottom{
+    background-color: #228B22;
+    height: 900px;
+}
 
 /* COMMON */
 
@@ -35,16 +49,22 @@
     margin: auto;
 }
 
+section:nth-child(2n){
+    background-color: #D3D3D3;
+}
+
 /* HEADER */
 
 .header-top{
     padding: 15px 0;
 }
 
-.container{
+.col-logo{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .header-bottom{
@@ -55,4 +75,23 @@
 .col-header{
     max-width: 900px;
     margin: auto;
+}
+
+/* MAIN */
+
+.row{
+    padding: 50px;
+    display: flex;
+}
+
+.col-big{
+    width: 60%;
+}
+
+.col-small{
+    width: 40%;
+}
+
+.col-main-bottom{
+    width: 100%;
 }
