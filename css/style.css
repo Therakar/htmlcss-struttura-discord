@@ -42,8 +42,19 @@
     height: 900px;
 }
 
-/* COMMON */
+.debug .col-big-foot{
+    background-color: #FFC0CB;
+    height: 580px;
+}
 
+.debug .col-small-foot{
+    background-color: #20B2AA;
+    height: 580px;
+}
+.debug footer{
+    background-color: #252525;
+}
+/* COMMON */
 .container{
     max-width: 1200px;
     margin: auto;
@@ -94,4 +105,15 @@ section:nth-child(2n){
 
 .col-main-bottom{
     width: 100%;
+}
+
+/* FOOTER */
+
+.col-big-foot{
+    width: 33.33%;
+    display: flex;
+}
+
+.col-small-foot{
+    width: 50%;
 }
