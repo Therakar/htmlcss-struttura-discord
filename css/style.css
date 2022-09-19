@@ -54,13 +54,18 @@
 .debug footer{
     background-color: #252525;
 }
+
+.debug .col-footer-bottom{
+    background-color: #7FFFD4;
+    height: 80px;
+}
 /* COMMON */
 .container{
     max-width: 1200px;
     margin: auto;
 }
 
-section:nth-child(2n){
+main section:nth-child(2n){
     background-color: #D3D3D3;
 }
 
@@ -116,4 +121,11 @@ section:nth-child(2n){
 
 .col-small-foot{
     width: 50%;
+}
+
+.col-footer-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
